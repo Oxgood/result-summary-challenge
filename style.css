@@ -1,0 +1,126 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Hanken Grotesk",Arial, Helvetica, sans-serif;
+}
+.main-container{
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid  rgba(0, 0, 0, 0.017);
+    box-shadow: 15px 15px 30px rgba(118, 50, 245, 0.15);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.left-container{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 250px;
+    box-sizing: border-box;
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result-text{
+    color: hsl(221, 100%, 96%);
+}
+.circle-container{
+    width:125px ;
+    height: 125px;
+    background-image: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    text-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    
+    
+}
+.big-76{
+    font-size:38px;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: white;
+}
+.small-100{
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
+    padding: 0;
+    margin-top: 0;
+}
+.great{
+    color: white;
+    font-weight: 500;
+}
+.para-text{
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.right-container{
+    display: flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+    align-items:center;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    padding-bottom: 20px;
+    
+}
+.sum-container{
+    width: 220px;
+    height: 60px;
+   
+}
+.sum-text{
+    font-size: 26px;
+    font-weight: 700;
+    color:hsl(224, 30%, 27%);
+   
+}
+.reaction-container, .memory-container, .verbal-container, .visual-container{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.reaction-container{
+    background-color: hsl(0, 80%, 84%, 0.15);
+}
+.memory-container{
+    background-color: hsl(39, 100%, 56%, 0.15);
+}
+.verbal-container{
+    background-color: hsl(166, 100%, 37%,0.15);
+}
+.visual-container{
+    background-color: hsl(234, 85%, 45%,0.15);
+}
+.but{
+    width: 200px;
+    height: 40px;
+    background: hsl(224, 30%, 27%);
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+}
+.but:active{
+    background: hsla(256, 72%, 46%, 1);
+}
+span{
+    color: rgb(168, 166, 166);
+}
